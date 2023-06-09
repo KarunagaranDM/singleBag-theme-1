@@ -1,0 +1,44 @@
+.heading {
+    position: fixed;
+}
+
+.parent-menu:nth-child(4){
+    position: relative;
+
+}
+.sub-menu ul {
+    position: absolute;
+    display: none;
+}
+.heading ul li a {
+    padding-left: 5px;
+}
+li {
+    padding-left: 60px;
+    font-size: 17px;
+    font-style: revert;
+}
+.head-btn {
+    margin-left: 15px;
+}
+.Logo {
+    font-size: 24px;
+    font-weight: 600;
+    animation-name: logoani;
+    animation-duration: 6s;
+    color: darkgrey;
+} 
+@keyframes logoani {
+    from{
+        transform: rotate();
+        color: white;
+    }
+    to{
+        transform: rotate(360deg);
+        color: darkgoldenrod;
+    }
+}
+.heading {
+    background :rgba(0, 0, 0, 0.8);
+   
+}

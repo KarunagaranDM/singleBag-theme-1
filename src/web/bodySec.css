@@ -1,0 +1,69 @@
+.Body-Sec {
+    margin-top: 50px;
+}
+.Heading-1 {
+    margin-top: 150px;
+    font-size: 37px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Heading-2 {
+    margin-top: 6px;
+    font-size: 23px;
+    margin-left: 23px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link-sec {
+    margin-top: 20px;
+}
+.link-1 {
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.link-2 {
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.link-1:hover{
+    background-color: darkgoldenrod;
+    cursor: grab;
+}
+.link-2:hover{
+    background-color: darkgoldenrod;
+    cursor: grab;
+}
+a.glightbox.play-btn {
+    color: darkgoldenrod;
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 170px;
+    animation-name: player;
+    animation-duration: 6s;
+}
+@keyframes player {
+    from{transform: rotate();
+    font-size: 50px;
+color: darkgoldenrod;}
+    to{transform: rotate(360deg);
+    font-size: 60px;
+color:darkgray}
+}
+a.glightbox.play-btn:hover {
+    color: darkkhaki;
+}

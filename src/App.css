@@ -1,4 +1,11 @@
-.App {
-  text-align: center;
+.background {
+  background-image: 
+  url(
+"../src/images/background.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+filter: grayscale(50%);
+height: 1000vh;
+width: 100%;
+ 
 }
-
