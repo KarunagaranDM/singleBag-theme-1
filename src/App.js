@@ -14,6 +14,7 @@ import MapSec from './web/map';
 import Footer from './web/footer';
 import { createBrowserRouter } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
+import ScrollButton from './web/tooltip';
 function App() {
   return (
     <div className="background container-fluid ">
@@ -27,6 +28,7 @@ function App() {
         <InfoSec/>
         <MapSec/>
         <Footer/>
+        <ScrollButton/>
     </div>
   )
 };
