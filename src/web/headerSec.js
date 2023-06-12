@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HeaderSec = ()=>{
     return(
     <>
-    <div className=" heading container-fluid  d-flex align-items-center navbar navbar-fixed-top  mt-3 py-1 mb-5">
+    <div className=" heading container-fluid  d-flex align-items-center  mt-3 py-1 mb-5">
         <div className="Logo justify-content-between mx-5 ">BLOODY SWEET</div>
         <ul className=" parent-menu d-flex justify-contents-between navbar-expand-sm nav nav-bar px-5">
            <Link className="text-decoration-none" to="/"><li className="text-warning" ><a>Home</a></li></Link>
