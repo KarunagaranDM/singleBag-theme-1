@@ -36,7 +36,7 @@ const TodoList = ()=>{
 
     return(
         <div className="container">
-            <h1>TodoList</h1>
+            <h1>list</h1>
             <input type="text" onChange={changeHandler} value={addValue}/>
             {flag?(<button onClick={updateHandler}>update</button>):(<button onClick={(e)=>clickHandler(e.target.value)}>Add</button>)}
             <div className="list-sec">
