@@ -4,18 +4,26 @@ import { Link } from 'react-router-dom';
 const HeaderSec = ()=>{
     return(
     <>
-    <div className=" heading container-fluid  d-flex align-items-center  mt-3 py-1 mb-5">
-        <div className="Logo justify-content-between mx-5 ">BLOODY SWEET</div>
-        <ul className=" parent-menu d-flex justify-contents-between navbar-expand-sm nav nav-bar px-5">
-           <Link className="text-decoration-none" to="/"><li className="text-warning" ><a>Home</a></li></Link>
-            <Link className="text-decoration-none" to="/about"><li className="text-secondary"><a className="anchor">About</a></li></Link>
-            <Link className="text-decoration-none" to="/menu"><li className="text-secondary"><a className="anchor">Menu</a></li></Link>
-            <Link className="text-decoration-none" to="/special"><li className="text-secondary"><a className="anchor">Special</a></li></Link>
-            <Link className="text-decoration-none" to="/order"><li className="text-secondary"><a className="anchor">Order</a></li></Link>
-            <Link className="text-decoration-none" to="/cart"><li className="text-secondary"><a className="anchor">Cart</a></li></Link>
-        </ul>
-        <div className="head-btn"><a className=" btn text-decoration-none text-warning bg-dark mx-5" href="#">Order</a></div>
+    <nav className="navbar navbar-expand-lg navbar-light">
+    <div className="container-fluid">
+        <a href="#" className="navbar-brand mx-3 ">BLOODY SWEET</a>
+        <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarCollapse">
+            <div className="navbar-nav mx-5  px-5">
+               <Link className="text-decoration-none" to="/"><a href="#" className="nav-item nav-link active text-warning mx-4">Home</a></Link>
+                <Link className="text-decoration-none" to="/menu"><a href="#" className="nav-item nav-link anchor mx-2">Menu</a></Link>
+                   <Link className="text-decoration-none" to="/about"><a href="#" className="nav-link dropdown-toggle anchor mx-2">About</a></Link>
+                <Link to="/special" className="text-decoration-none"><a className="nav-item nav-link anchor mx-2 " href="#">Special</a></Link>
+               <Link className="text-decoration-none" to="/cart"> <a href="#" className="nav-item nav-link anchor mx-2 ">Cart</a></Link>
+            </div>
+            <div className="navbar-nav ms-auto">
+                <Link className="text-decoration-none" to="/order"><a href="#" className="nav-item nav-link btn text-decoration-none text-warning bg-dark mx-5">Orders</a></Link>
+            </div>
+        </div>
     </div>
+</nav>
     </>
     )
 }
