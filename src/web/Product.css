@@ -1,0 +1,55 @@
+.img1 {
+    width: 300px;
+    height: 200px;
+}
+.img2 {
+    width: 300px;
+    height: 200px;
+}
+.img3 {
+    width: 300px;
+    height: 200px;
+}
+.ProductSec {
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.headerSec {
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.headerSec:hover {
+    color: darkgoldenrod;
+    border-bottom: 1px dashed darkgoldenrod;
+}
+.Detls.card.bg-secondary {
+    width: 300px;
+    height: 230px;
+}
+
+img.img2.aos-init.aos-animate {
+    border-radius: 10px;
+}
+
+.MuiStack-root.css-1okj3ks-MuiStack-root {
+    margin-left: 105px;
+}
+
+.sec1.d-flex {
+    margin-left: 25px;
+}
+a.link {
+    margin-left: 100px;
+    text-decoration: none;
+}
+a.link:hover {
+ background-color: darkgoldenrod;
+ color: black;
+}

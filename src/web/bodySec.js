@@ -2,11 +2,12 @@ import '../web/bodySec.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { ImPlay2 } from 'react-icons/im';
+import { Link } from 'react-router-dom';
 
 const BodySec = () => {
     return (
         <>
-            <div className="Body-Sec container mt-5 position-absolute d-flex">
+           <Link><div className="Body-Sec container mt-5 position-absolute d-flex">
                 <div className="sec-1">
                     <div className="Heading-1 text-white ">WELCOME TO <span className="text-warning">CHOCOLATE WORD!</span></div>
                     <div className="Heading-2 text-white">Delivering great Choclates for more than 18 years!</div>
@@ -21,6 +22,7 @@ const BodySec = () => {
                     </div>
                 </div>
             </div>
+            </Link>
         </>
     )
 }

@@ -42,3 +42,26 @@ li {
     background :rgba(0, 0, 0, 0.8);
    
 }
+.heading ul li a:hover
+{
+   color: darkgoldenrod;
+}
+.a:hover {
+    color: darkgoldenrod;
+}
+
+.anchor {
+    color: gray;
+    text-decoration: none;
+}
+.anchor :hover {
+    color: darkgoldenrod;
+}
+.btn .text-decoration-none .text-warning .bg-dark .mx-5:active{
+    color:black;
+    background-color: darkgoldenrod;
+
+}
+.heading .container-fluid .fixed-top .expand-sm .d-flex .align-items-center  .mt-3 .py-1 .mb-5{
+    position: fixed;
+}
