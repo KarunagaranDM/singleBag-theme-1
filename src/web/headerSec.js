@@ -13,10 +13,10 @@ const HeaderSec = ()=>{
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav mx-5  px-5">
                <Link className="text-decoration-none" to="/"><a href="#" className="nav-item nav-link active text-warning mx-4">Home</a></Link>
-                <Link className="text-decoration-none" to="/menu"><a href="#" className="nav-item nav-link anchor mx-2">Menu</a></Link>
-                   <Link className="text-decoration-none" to="/about"><a href="#" className="nav-link dropdown-toggle anchor mx-2">About</a></Link>
-                <Link to="/special" className="text-decoration-none"><a className="nav-item nav-link anchor mx-2 " href="#">Special</a></Link>
-               <Link className="text-decoration-none" to="/cart"> <a href="#" className="nav-item nav-link anchor mx-2 ">Cart</a></Link>
+                <Link className="text-decoration-none" to="/menu"><a href="#" className="nav-item nav-link anchor mx-4">Menu</a></Link>
+                   <Link className="text-decoration-none" to="/about"><a href="#" className="nav-link dropdown-toggle anchor mx-4">About</a></Link>
+                <Link to="/special" className="text-decoration-none"><a className="nav-item nav-link anchor mx-4 " href="#">Special</a></Link>
+               <Link className="text-decoration-none" to="/cart"> <a href="#" className="nav-item nav-link anchor mx-4 ">Cart</a></Link>
             </div>
             <div className="navbar-nav ms-auto">
                 <Link className="text-decoration-none" to="/order"><a href="#" className="nav-item nav-link btn text-decoration-none text-warning bg-dark mx-5">Orders</a></Link>
