@@ -33,7 +33,7 @@ const HeaderSec = ()=>{
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle mx-5" data-bs-toggle="dropdown">About</a>
                     <div class="dropdown-menu mx-4">
-                        <Link className="text-decoration-none" to="/special"><a href="#" class="dropdown-item">Special</a></Link>
+                        <Link className="text-decoration-none" to="/special"><a href="#" class="dropdown-item">Account</a></Link>
                         <a href="#" class="dropdown-item">Service</a>
                         <Link className="text-decoration-none" to="/about"><a href="#" class="dropdown-item">Delivery</a></Link>
                     </div>
