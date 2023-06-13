@@ -6,6 +6,7 @@ import About from "./about";
 import Menu from "./menu";
 import Special from "./special";
 import Order from "./order";
+import Location from "./location";
 
 
 const RouterApp = createBrowserRouter([
@@ -35,6 +36,9 @@ const RouterApp = createBrowserRouter([
           },{
             path:"/cart",
             element:<Cart/>
+          },{
+            path:"/locate",
+            element:<Location/>
           }
       ],
     },
