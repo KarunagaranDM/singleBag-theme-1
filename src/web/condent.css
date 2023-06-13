@@ -4,7 +4,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    margin-top: 600px;
+    margin-top: 630px;
 }
 .condentHead {
     margin-top: 30px;
@@ -22,10 +22,10 @@
     width: 400px;
     height: 50px;
 }
-img.imaging.card.mt-5.mb-5 {
+img.imaging.card.mt-3.mb- {
     margin-left: 150px;
 }
-img.imaging.card.mt-5.mb-5:hover{
+img.imaging.card.mt-3.mb-3:hover{
     box-shadow: 5px 10px 8px #888888;;
 }
 .reportSec {
@@ -42,7 +42,6 @@ img.imaging.card.mt-5.mb-5:hover{
 .reportHead {
     font-size: 20px;
     color:white;
-    border-bottom: 1px dotted whitesmoke;
 }
 .reportHead:hover {
     color:darkgoldenrod;

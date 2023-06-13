@@ -66,10 +66,10 @@ export default function SwipeableTemporaryDrawer() {
   );
 
   return (
-    <div className=" OrderNav container mt-5 d-inline">
+    <div className="row OrderNav d-inline mt-5">
       {['Your orders'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button className="card" onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+          <Button className="btn col-sm-12 col-xs-12 col-xl-12 col-lg-12 col-md-12 " onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}
