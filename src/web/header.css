@@ -58,11 +58,6 @@ a.nav-item.nav-link.anchor:hover
     {
     color: darkgoldenrod;
 }
-a.nav-item.nav-link:active{
-    color:black;
-    background-color: darkgoldenrod;
-
-}
 .heading .container-fluid .fixed-top .expand-sm .d-flex .align-items-center  .mt-3 .py-1 .mb-5{
     position: fixed;
 }
@@ -139,10 +134,12 @@ a.nav-item.nav-link.anchor:hover
     {
     color: darkgoldenrod;
 }
-a.nav-item.nav-link:active{
-    color:black;
+a.nav-item.nav-link.btn.text-decoration-none.text-warning.bg-dark.mx-1 {
+    border: 1px solid darkgoldenrod;
+}
+a.nav-item.nav-link.btn.text-decoration-none.text-warning.bg-dark.mx-1:active {
     background-color: darkgoldenrod;
-
+    color: darkslategray;
 }
 .heading .container-fluid .fixed-top .expand-sm .d-flex .align-items-center  .mt-3 .py-1 .mb-5{
     position: fixed;
