@@ -1,5 +1,5 @@
 .Body-Sec {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .Heading-1 {
     margin-top: 150px;
@@ -66,4 +66,30 @@ color:darkgray}
 }
 a.glightbox.play-btn:hover {
     color: darkkhaki;
+}
+.SearchBar {
+    margin-left: 960px;
+    margin-top: 10px;
+}
+.inputSec {
+    background-color:darkslategray;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+}
+.inputSec:focus {
+    color:darkgoldenrod;
+    font-style: oblique;
+}
+.buttonSec {
+    margin-left: 3px;
+    background-color: darkslategray;
+    border: 2px solid darkgoldenrod;
+    border-radius: 3px;
+}
+.buttonSec:hover{
+    color: darkgoldenrod;
+}
+.buttonSec:active {
+    color:darkslategray;
+    background-color: darkgoldenrod;
 }

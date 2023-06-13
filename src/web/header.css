@@ -79,3 +79,94 @@ a.nav-link.dropdown-toggle.anchor:hover {
 .navbar-nav.mx-5.px-5 {
     margin-left: 100px;
 }
+.heading {
+    position: fixed;
+}
+
+.parent-menu:nth-child(4){
+    position: relative;
+
+}
+.sub-menu ul {
+    position: absolute;
+    display: none;
+}
+.heading ul li a {
+    padding-left: 5px;
+}
+a.nav-item.nav-link.anchor {
+    padding-left: 60px;
+    font-size: 17px;
+    font-style: revert;
+}
+.head-btn {
+    margin-left: 15px;
+}
+a.navbar-brand.mx-3 {
+    font-size: 24px;
+    font-weight: 600;
+    animation-name: logoani;
+    animation-duration: 6s;
+    color: darkgrey;
+} 
+@keyframes logoani {
+    from{
+        transform: rotate();
+        color: white;
+    }
+    to{
+        transform: rotate(360deg);
+        color: darkgoldenrod;
+    }
+}
+.container-fluid {
+    background :rgba(0, 0, 0, 0.8);
+   
+}
+.heading ul li a:hover
+{
+   color: darkgoldenrod;
+}
+.a:hover {
+    color: darkgoldenrod;
+}
+
+a.nav-item.nav-link.anchor {
+    color: gray;
+    text-decoration: none;
+}
+a.nav-item.nav-link.anchor:hover
+    {
+    color: darkgoldenrod;
+}
+a.nav-item.nav-link:active{
+    color:black;
+    background-color: darkgoldenrod;
+
+}
+.heading .container-fluid .fixed-top .expand-sm .d-flex .align-items-center  .mt-3 .py-1 .mb-5{
+    position: fixed;
+}
+a.nav-link.dropdown-toggle.anchor {
+    color: gray;
+    text-decoration: none;
+    padding-left: 60px;
+    font-size: 17px;
+    font-style: revert;
+}
+a.nav-link.dropdown-toggle.anchor:hover {
+    color: darkgoldenrod;
+}
+.navbar-nav.mx-5.px-5 {
+    margin-left: 100px;
+}
+a.nav-item.nav-link.btn.text-decoration-none.text-warning.bg-dark.mx-5 {
+    margin-right: 30px;
+}
+a.nav-link.dropdown-toggle {
+    color: gray;
+}
+
+a.nav-link.dropdown-toggle:hover {
+    color: darkgoldenrod;
+}

@@ -10,7 +10,7 @@ const CondentSec = () => {
                         Popular Products In the Industry!
                     </div>
                     <div className="condentDtls">
-                        <ul className="choco text-secondary nav d-block">
+                        <ul className="choco text-secondary nav d-block mx-5">
                             <li><a >Milk Chocolate.</a></li>
                             <li><a> White Chocolate.</a></li>
                             <li><a>Dark Chocolate.</a></li>

@@ -1,5 +1,5 @@
 .FooterSec {
-    height: 550px;
+    height: 470px;
     margin-top: 60px;
     background: rgba(0, 0, 0, 0.8);
     position: relative;
@@ -7,4 +7,9 @@
     left: 0;
     right: 0;
     margin-top: 60px;
+}
+.right {
+    margin-left: 670px;
+    margin-top: 70px;
+    padding-top: 10px;
 }
