@@ -1,5 +1,11 @@
 .Body-Sec {
-    margin-top: 50px;
+    margin-top: 40px;
+}
+@media screen and (max-width: 576px) {
+    .Body-Sec.container.mt-4.position-absolute.d-flex {
+        margin-left: 0;
+        
+    }
 }
 .Heading-1 {
     margin-top: 140px;
@@ -70,7 +76,35 @@ color:darkgray}
 a.glightbox.play-btn:hover {
     color: darkkhaki;
 }
+<<<<<<< HEAD
 .Body-Sec.container.position-absolute {
     margin-top: 180px;
     margin-left: 40px;
+=======
+.SearchBar {
+    margin-left: 960px;
+    margin-top: 10px;
+}
+.inputSec {
+    background-color:darkslategray;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+}
+.inputSec:focus {
+    color:darkgoldenrod;
+    font-style: oblique;
+}
+.buttonSec {
+    margin-left: 3px;
+    background-color: darkslategray;
+    border: 2px solid darkgoldenrod;
+    border-radius: 3px;
+}
+.buttonSec:hover{
+    color: darkgoldenrod;
+}
+.buttonSec:active {
+    color:darkslategray;
+    background-color: darkgoldenrod;
+>>>>>>> 4ea6a6b3cd9f0b37c21671c477f428a68fddcd98
 }

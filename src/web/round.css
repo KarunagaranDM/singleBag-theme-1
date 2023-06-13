@@ -4,7 +4,7 @@ img.d-block.w-100 {
     margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    filter: grayscale(40%);
+    filter: grayscale(60%);
 }
 div#carouselExampleCaptions {
         background: rgba(0, 0, 0, 0.8);
@@ -27,4 +27,18 @@ h4.roundHead:hover {
     color: darkgoldenrod;
     border-bottom: 1px dashed darkgoldenrod;
     display: inline;
+}
+img.d-block.w-100 {
+    filter: grayscale(40%);
+}
+
+.carousel-caption.d-none.d-md-block {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.carousel-caption.d-none.d-md-block:hover {
+    color: darkgoldenrod;
+}
+img.d-block.w-100 {
+    filter: grayscale(40%);
 }

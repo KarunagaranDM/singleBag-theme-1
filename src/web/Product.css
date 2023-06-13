@@ -32,7 +32,8 @@
 }
 .Detls.card.bg-secondary {
     width: 300px;
-    height: 230px;
+    height: 220px;
+    margin-bottom: 6px;
 }
 
 img.img2.aos-init.aos-animate {
@@ -54,9 +55,14 @@ a.link:hover {
  background-color: darkgoldenrod;
  color: #000000;
 }
+<<<<<<< HEAD
 .col-3 {
     box-shadow: 10px 0px 0px 0px white;
 }
 .row.container.justify-content-between {
     margin-left: 85px;
+=======
+.col-sm-3.col-md-2.col-lg-3  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+>>>>>>> 4ea6a6b3cd9f0b37c21671c477f428a68fddcd98
 }

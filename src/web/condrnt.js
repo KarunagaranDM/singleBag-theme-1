@@ -1,7 +1,14 @@
 import '../web/condent.css';
-import pexel from '../images/pexels-photo-11178478.jpeg'
+import pexel from '../images/pexels-photo-11178478.jpeg';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const CondentSec = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
     return (
         <>
             <div className="condent-sec container ">
@@ -12,7 +19,11 @@ const CondentSec = () => {
                         </div>
                     </div>
                     <div className="condentDtls row">
+<<<<<<< HEAD
                         <ul className="choco text-secondary nav d-block col-xl-5 col-lg-5 col-md-5 col-sm-10 col-xs-10 mt-4 mx-4">
+=======
+                        <ul className="choco text-secondary nav d-block mx-5 col-sm-4">
+>>>>>>> 4ea6a6b3cd9f0b37c21671c477f428a68fddcd98
                             <li><a >Milk Chocolate.</a></li>
                             <li><a> White Chocolate.</a></li>
                             <li><a>Dark Chocolate.</a></li>
@@ -25,7 +36,12 @@ const CondentSec = () => {
                         <div className="lefts col-xl-6 col-lg-6 col-md-6 col-sm-10 col-xs-10">
                     <img className="imaging card  mt-3 mb-3" style={{ width: "400px", height: "200px" }} src={pexel} />
                 </div>
+<<<<<<< HEAD
                     </div>
+=======
+                <div className="lefts col-sm-4">
+                    <img className="imaging card  mt-5 mb-5" style={{ width: "450px", height: "250px" }} src={pexel} data-aos="zoom-in-up" />
+>>>>>>> 4ea6a6b3cd9f0b37c21671c477f428a68fddcd98
                 </div>
 
             </div>
