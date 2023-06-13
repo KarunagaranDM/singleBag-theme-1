@@ -15,7 +15,7 @@ import MailIcon from '@mui/icons-material/Mail';
 
 export default function SwipeableTemporaryDrawer() {
   const [state, setState] = React.useState({
-    YourOrders: false,
+    YourAccount: false,
   });
 
   const toggleDrawer = (anchor, open) => (event) => {
@@ -67,7 +67,7 @@ export default function SwipeableTemporaryDrawer() {
 
   return (
     <div className=" OrderNav container mt-5 d-inline">
-      {['Your orders'].map((anchor) => (
+      {['Your Account'].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button className="card" onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
           <SwipeableDrawer

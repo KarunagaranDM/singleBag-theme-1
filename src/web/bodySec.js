@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { ImPlay2 } from 'react-icons/im';
 import { Link } from 'react-router-dom';
-import {FaSearchengin} from 'react-icons/fa'
+import {FaSearchengin} from 'react-icons/fa';
 
 const BodySec = () => {
     return (
@@ -17,8 +17,8 @@ const BodySec = () => {
                     <div className="Heading-1 text-white ">WELCOME TO <span className="text-warning">CHOCOLATE WORD!</span></div>
                     <div className="Heading-2 text-white">Delivering great Choclates for more than 18 years!</div>
                     <div className=" link-sec d-flex mx-3 px-3">
-                        <div className="link-1"><a className="text-decoration-none text-white" href="#">OUR MENU</a></div>
-                        <div className="link-2"><a className="text-decoration-none text-white" href="#">BOOK ORDER</a></div>
+                        <Link className="text-decoration-none" to="/menu"><div className="link-1"><a className="text-decoration-none text-white" href="#">OUR MENU</a></div></Link>
+                        <Link className="text-decoration-none" to="/order"><div className="link-2"><a className="text-decoration-none text-white" href="#">BOOK ORDER</a></div></Link>
                     </div>
                 </div>
                 <div className="sec-2 float-end">
