@@ -7,13 +7,17 @@ import '../web/Product.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-
+import { useNavigate } from 'react-router-dom';
 
 const ProductSec =()=>{
+  const navigate = useNavigate();
     useEffect(() => {
         AOS.init();
         AOS.refresh();
     }, []);
+    function handleClick() {
+      navigate('/cart')
+    }
     return(
         <div className="ProductSec mb-5">
         <h4 className=" headerSec">Top Rated Dishes!</h4>
@@ -30,7 +34,7 @@ const ProductSec =()=>{
         <div className="discount mx-3">20% Offer</div>
         </div>
         <hr/>
-        <div><a className="link btn-primary mb-2 d-inline btn" href="#">Order Now</a></div>
+        <div><a className="link btn-primary mb-2 d-inline btn" href="#" onClick={handleClick}>Order Now</a></div>
       </div>
     </div>
     <div class="col-3">
@@ -45,7 +49,7 @@ const ProductSec =()=>{
         <div className="discount mx-3">40% Offer</div>
         </div>
         <hr/>
-        <div><a className=" link btn-primary mb-2 d-inline btn" href="#">Order Now</a></div>
+        <div><a className=" link btn-primary mb-2 d-inline btn" href="#" onClick={handleClick}>Order Now</a></div>
       </div>
     </div>
     <div class="col-3">
@@ -60,7 +64,7 @@ const ProductSec =()=>{
         <div className="discount mx-3">30% Offer</div>
         </div>
         <hr/>
-        <div><a className="link btn-primary mb-2 d-inline btn" href="#">Order Now</a></div>
+        <div><a className="link btn-primary mb-2 d-inline btn" href="#" onClick={handleClick}>Order Now</a></div>
       </div>
     </div>
   </div>
@@ -77,7 +81,7 @@ const ProductSec =()=>{
         <div className="discount mx-3">20% Offer</div>
         </div>
         <hr/>
-        <div><a className=" link btn-primary mb-2 d-inline btn" href="#">Order Now</a></div>
+        <div><a className=" link btn-primary mb-2 d-inline btn" href="#" onClick={handleClick}>Order Now</a></div>
       </div>
     </div>
     <div class="col-3">
@@ -92,7 +96,7 @@ const ProductSec =()=>{
         <div className="discount mx-3">40% Offer</div>
         </div>
         <hr/>
-        <div><a className=" link btn-primary mb-2 d-inline btn" href="#">Order Now</a></div>
+        <div><a className=" link btn-primary mb-2 d-inline btn" href="#" onClick={handleClick}>Order Now</a></div>
       </div>
     </div>
     <div class="col-3">
@@ -107,7 +111,7 @@ const ProductSec =()=>{
         <div className="discount mx-3">30% Offer</div>
         </div>
         <hr/>
-        <div><a className="link btn-primary mb-2 d-inline btn" href="#">Order Now</a></div>
+        <div><a className="link btn-primary mb-2 d-inline btn" href="#" onClick={handleClick}>Order Now</a></div>
       </div>
     </div>
   </div>
