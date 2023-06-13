@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
         <div className="right">
           <ul className="mt-3 rigtSec">
-            <li className="text-white">Condact :<a className="text-decoration-none mx-1" href="#">+91 9734758527</a></li>
+            <li className="text-white">Contact :<a className="text-decoration-none mx-1" href="#">+91 9734758527</a></li>
             <li className="text-white">Designed by :<a className="text-decoration-none" href="#">@singlebag.com</a></li>
           </ul>
         </div>
