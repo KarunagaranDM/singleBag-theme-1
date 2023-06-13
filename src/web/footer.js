@@ -6,7 +6,7 @@ import '../web/footer.css';
 const Footer = () => {
   return (
     < div className=" FooterSec container-fluid">
-      <footer class="text-center mx-4 mt-4">
+      <footer class="text-center mx-4 mt-2">
         <div className="d-flex justify-content-center mx-4" id="accordion">
 
           <div className=" mt-4 mx-5">
@@ -66,7 +66,7 @@ const Footer = () => {
       <br />
       <div className="tagLinks d-flex">
         <div className="left">
-        <ul className="mt-4 mx-4 pt-4">
+        <ul className=" mx-4 pt-4">
         <li className="mt-2"><a className="text-decoration-none " href="#">@Instagram.com</a></li>
         <li className="mt-2"><a className="text-decoration-none" href="#">@LinkedIn.com</a></li>
         <li className="mt-2"><a className="text-decoration-none" href="#">@Facebook.com</a></li>
@@ -74,7 +74,7 @@ const Footer = () => {
         </ul>
         </div>
         <div className="right">
-          <ul className="mt-4 rigtSec">
+          <ul className="mt-3 rigtSec">
             <li className="text-white">Condact :<a className="text-decoration-none mx-1" href="#">+91 9734758527</a></li>
             <li className="text-white">Designed by :<a className="text-decoration-none" href="#">@singlebag.com</a></li>
           </ul>

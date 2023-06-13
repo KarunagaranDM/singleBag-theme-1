@@ -16,8 +16,8 @@ const CondentSec = () => {
                     <div className="condentHead  mb-2" >
                         Popular Products In the Industry!
                     </div>
-                    <div className="condentDtls">
-                        <ul className="choco text-secondary nav d-block mx-5">
+                    <div className="condentDtls row">
+                        <ul className="choco text-secondary nav d-block mx-5 col-sm-4">
                             <li><a >Milk Chocolate.</a></li>
                             <li><a> White Chocolate.</a></li>
                             <li><a>Dark Chocolate.</a></li>
@@ -29,7 +29,7 @@ const CondentSec = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="lefts">
+                <div className="lefts col-sm-4">
                     <img className="imaging card  mt-5 mb-5" style={{ width: "450px", height: "250px" }} src={pexel} data-aos="zoom-in-up" />
                 </div>
 

@@ -1,6 +1,12 @@
 .Body-Sec {
     margin-top: 40px;
 }
+@media screen and (max-width: 576px) {
+    .Body-Sec.container.mt-4.position-absolute.d-flex {
+        margin-left: 0;
+        
+    }
+}
 .Heading-1 {
     margin-top: 150px;
     font-size: 37px;
