@@ -1,7 +1,14 @@
 import '../web/condent.css';
-import pexel from '../images/pexels-photo-11178478.jpeg'
+import pexel from '../images/pexels-photo-11178478.jpeg';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const CondentSec = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
     return (
         <>
             <div className="condent-sec container d-flex">
@@ -23,7 +30,7 @@ const CondentSec = () => {
                     </div>
                 </div>
                 <div className="lefts">
-                    <img className="imaging card  mt-5 mb-5" style={{ width: "450px", height: "250px" }} src={pexel} />
+                    <img className="imaging card  mt-5 mb-5" style={{ width: "450px", height: "250px" }} src={pexel} data-aos="zoom-in-up" />
                 </div>
 
             </div>
