@@ -11,14 +11,16 @@ const CondentSec = () => {
     }, []);
     return (
         <>
-            <div className="condent-sec container d-flex">
+             <div className="condent-sec container ">
                 <div className="rights">
-                    <div className="condentHead  mb-2" >
+                    <div className="condentHead row mb-2" >
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-inline">
                         Popular Products In the Industry!
-                    </div>
+                        </div>
+                        </div>
                     <div className="condentDtls row">
-                        <ul className="choco text-secondary nav d-block mx-5 col-sm-4">
-                            <li><a >Milk Chocolate.</a></li>
+                    <ul className="choco text-secondary nav d-block col-xl-5 col-lg-5 col-md-5 col-sm-10 col-xs-10 mt-4 mx-4">
+                    <li><a >Milk Chocolate.</a></li>
                             <li><a> White Chocolate.</a></li>
                             <li><a>Dark Chocolate.</a></li>
                             <li><a>Semisweeet Chocolate.</a></li>
@@ -27,12 +29,11 @@ const CondentSec = () => {
                             <li><a>Cocoa Powder</a></li>
                             <li><a>Sweet German Chocolate</a></li>
                         </ul>
+                        <div className="lefts col-xl-6 col-lg-6 col-md-6 col-sm-10 col-xs-10">
+                    <img className="imaging card  mt-3 mb-3" style={{ width: "400px", height: "200px" }} src={pexel} />
+                </div>
                     </div>
                 </div>
-                <div className="lefts col-sm-4">
-                    <img className="imaging card  mt-5 mb-5" style={{ width: "450px", height: "250px" }} src={pexel} data-aos="zoom-in-up" />
-                </div>
-
             </div>
             <div className="reportSec text-white container">
                 <div className="reportHead">WHY US..</div>

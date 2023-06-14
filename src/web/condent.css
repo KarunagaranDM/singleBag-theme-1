@@ -22,10 +22,10 @@
     width: 400px;
     height: 50px;
 }
-img.imaging.card.mt-5.mb-5 {
-    margin-left: 150px;
+img.imaging.card.mt-3.mb-3 {
+    margin-left: 60px;
 }
-img.imaging.card.mt-5.mb-5:hover{
+img.imaging.card.mt-3.mb-3:hover{
     box-shadow: 5px 10px 8px #888888;;
 }
 .reportSec {

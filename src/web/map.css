@@ -1,9 +1,9 @@
 .mapImg {
-    width: 100%;
     height: 500px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 30px;
     filter: grayscale(40%);
+    margin-left: 60px;
 }
 .Location .container .mt-5 {
     background: rgba(0, 0, 0, 0.8);

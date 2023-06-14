@@ -9,9 +9,11 @@ const MapSec = ()=>{
       }
     return(
         <>
-        <div className="Location container mt-5">
-        <a className="btn btn-primary text-white" href="#" onClick={clickHandler}>Find Us..</a>
-        <img className="mapImg" src={map}/>
+        <div className="Location container mt-5 row">
+        <a className="btn btn-primary text-white col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12" href="#" onClick={clickHandler}>Find Us..</a>
+        <div className="row">
+        <img className="mapImg col-xl-12 col-lg-12 col-md-8 col-sm-12 col-xs-12 " src={map}/>
+        </div>
         </div>
         </>
     )
