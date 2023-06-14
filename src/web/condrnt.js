@@ -19,8 +19,8 @@ const CondentSec = () => {
                         </div>
                         </div>
                     <div className="condentDtls row">
-                    <ul className="choco text-secondary nav d-block col-xl-5 col-lg-5 col-md-5 col-sm-10 col-xs-10 mt-4 mx-4">
-                    <li><a >Milk Chocolate.</a></li>
+                        <ul className="choco text-secondary nav d-block col-xl-5 col-lg-5 col-md-5 col-sm-10 col-xs-10 mt-4 mx-4">
+                            <li><a >Milk Chocolate.</a></li>
                             <li><a> White Chocolate.</a></li>
                             <li><a>Dark Chocolate.</a></li>
                             <li><a>Semisweeet Chocolate.</a></li>
@@ -34,7 +34,7 @@ const CondentSec = () => {
                 </div>
                     </div>
                 </div>
-            </div>
+                </div>
             <div className="reportSec text-white container">
                 <div className="reportHead">WHY US..</div>
                 <div class="row mt-5">

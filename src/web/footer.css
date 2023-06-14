@@ -11,5 +11,11 @@
 .right {
     margin-left: 670px;
     margin-top: 60px;
+<<<<<<< HEAD
+}
+.mt-5 .mx-5 {
+    margin-left: 100px;
+=======
     padding-top: 10px;
+>>>>>>> 4ea6a6b3cd9f0b37c21671c477f428a68fddcd98
 }

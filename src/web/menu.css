@@ -1,9 +1,15 @@
-button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.card.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btn.col-sm-12.col-xs-12.col-xl-12.col-lg-12.col-md-12.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
     text-align: center;
     margin-top: 60px;
+<<<<<<< HEAD
+=======
     margin-left: 550px;
+>>>>>>> 4ea6a6b3cd9f0b37c21671c477f428a68fddcd98
     text-decoration: none;
-    border: 1px solid darkgoldenrod;
     color: white;
     border-radius: 10px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btn.col-sm-12.col-xs-12.col-xl-12.col-lg-12.col-md-12.css-1e6y48t-MuiButtonBase-root-MuiButton-root:active{
+    display: inline;
+    border: 2px solid darkgoldenrod;
 }

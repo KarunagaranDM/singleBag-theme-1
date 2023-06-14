@@ -76,7 +76,11 @@ color:darkgray}
 a.glightbox.play-btn:hover {
     color: darkkhaki;
 }
-.SearchBar .row {
+.Body-Sec.container.position-absolute {
+    margin-top: 180px;
+    margin-left: 40px;
+}
+.SearchBar {
     margin-left: 960px;
     margin-top: 10px;
 }
