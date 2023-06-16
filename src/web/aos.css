@@ -4,7 +4,27 @@
     bottom: 0;
     left: 0;
     right: 0;
+    margin-top: 50px;
 }
 img.card.w-75.h-75.mt-3.mb-3.aos-init.aos-animate{
     box-shadow: 0 4px 8px 0 rgba(123, 122, 122, 0.957), 0 6px 20px 0 rgba(124, 124, 124, 0.961);
+}
+img.card.w-75.h-75.mt-3.mb-3.aos-init.aos-animate:hover{
+    filter: opacity(50%);
+}
+img.card.w-75.slider2.mx-2.mt-3.mb-3.aos-init.aos-animate:hover{
+    filter: opacity(50%);
+}
+img.card.w-75.slider2.mx-2.mt-3.mb-3.aos-init.aos-animate{
+    box-shadow: 0 4px 8px 0 rgba(123, 122, 122, 0.957), 0 6px 20px 0 rgba(124, 124, 124, 0.961);
+}
+.HEADING {
+    margin-top: 30px;
+    margin-left: 60px;
+    color: gray;
+}
+.HEADING:hover{
+    display: block;
+    border-bottom: 1px solid darkgoldenrod;
+    color: darkgoldenrod;
 }

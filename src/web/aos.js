@@ -13,8 +13,11 @@ const OrderSec = () => {
         AOS.refresh();
     }, []);
     return (
-        <div className="SliderSec">
-            <div className="slider d-flex mt-lg-5 container justify-content-between ">
+        <div className="SliderSec ">
+            <div className="row">
+            <h4 className="HEADING col-xl-6 col-lg-6 col-md-5 col-sm-12 col-xs-12">OUR AMBIENCE</h4>
+            </div>
+            <div className="slider d-flex mt-lg-2 container justify-content-between ">
                 <img className="card w-75 h-75 mt-3 mb-3" src={slider1} data-aos="fade-up-right" />
                 <img className="card w-75 slider2 mx-2 mt-3 mb-3" src={slider2} data-aos="fade-up-left" />
             </div>

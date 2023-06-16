@@ -167,3 +167,9 @@ a.nav-link.dropdown-toggle {
 a.nav-link.dropdown-toggle:hover {
     color: darkgoldenrod;
 }
+a.nav-item.nav-link.text-decoration-none.text-warning.bg-dark {
+    margin-right: 25px;
+}
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.nav-item.nav-link.text-warning.bg-dark.cart.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+    margin-right: 25px;
+}

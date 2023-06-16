@@ -8,14 +8,20 @@ const MapSec = ()=>{
         navigate('/locate')
       }
     return(
-        <>
-        <div className="Location container mt-5 row">
-        <a className="btn btn-primary text-white col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12" href="#" onClick={clickHandler}>Find Us..</a>
-        <div className="row">
-        <img className="mapImg col-xl-12 col-lg-12 col-md-8 col-sm-12 col-xs-12 " src={map}/>
+        <div className="Location">
+        <div className="row justify-content-center">
+      <div className="image-container">
+      <img className="col-xl-8 col-lg-8 col-md-8 col-sm-10 col-xs-10 " src={map} alt="Product" />
+      <div className="overlay">
+        <div className="overlay-content">
+          <div className="logo">
+            <a className=" btn btn-primary" href="#" onClick={clickHandler}>Find Us..</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
         </div>
-        </div>
-        </>
     )
 }
 export default MapSec;

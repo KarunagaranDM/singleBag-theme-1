@@ -1,0 +1,53 @@
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .slider-spinner {
+    animation: spin 2s linear infinite;
+  }
+  img.imageSec {
+    width: 200px;
+    height:200px;
+    margin-left: 100px;
+    border-radius: 50%;
+  }
+  img.imageSec:hover {
+     filter: opacity(50%);
+  }
+  h4.hint {
+    color: darkgoldenrod;
+    font-family: 'slick';
+    margin-left: 160px;
+}
+  .carousel-swipe-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .carousel-swipe-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .carousel-swipe-icon:hover {
+    background-color: #f2f2f2;
+  }
+  .bumbSec {
+    margin-top: 500px;
+    background: bottom;
+  }

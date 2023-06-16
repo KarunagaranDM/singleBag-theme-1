@@ -4,7 +4,7 @@ img.d-block.w-100 {
     margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    filter: grayscale(60%);
+    filter: opacity(60%);
 }
 div#carouselExampleCaptions {
         background: rgba(0, 0, 0, 0.8);
@@ -40,5 +40,5 @@ img.d-block.w-100 {
     color: darkgoldenrod;
 }
 img.d-block.w-100 {
-    filter: grayscale(40%);
+    filter: opacity(0.5);
 }

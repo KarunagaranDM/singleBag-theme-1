@@ -11,7 +11,7 @@ const CondentSec = () => {
     }, []);
     return (
         <>
-             <div className="condent-sec container ">
+             <div className="condent-sec container" data-aos="fade-up">
                 <div className="rights">
                     <div className="condentHead row mb-2" >
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-inline">
@@ -30,12 +30,12 @@ const CondentSec = () => {
                             <li><a>Sweet German Chocolate</a></li>
                         </ul>
                         <div className="lefts col-xl-6 col-lg-6 col-md-6 col-sm-10 col-xs-10">
-                    <img className="imaging card  mt-3 mb-3" style={{ width: "400px", height: "200px" }} src={pexel} />
+                    <img className="imaging card  mt-3 mb-3" style={{ width: "400px", height: "200px" }} src={pexel} data-aos="zoom-in-up" />
                 </div>
                     </div>
                 </div>
                 </div>
-            <div className="reportSec text-white container">
+            <div className="reportSec text-white container mb-5" data-aos="fade-up">
                 <div className="reportHead">WHY US..</div>
                 <div class="row mt-5">
                     <div class="col-sm card">

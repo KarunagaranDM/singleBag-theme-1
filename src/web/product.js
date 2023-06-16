@@ -22,12 +22,12 @@ const ProductSec =()=>{
         <div className="ProductSec mb-5">
         <h4 className=" headerSec">Top Rated Dishes!</h4>
         <div class="row container justify-content-between mx-4">
-    <div class="col-xl-3 col-lg-3 col-md-2 col-sm-1 col-xs-1">
+    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
       <img className="img1" src={sec1} data-aos="flip-left"/>
       <div className="Detls card bg-secondary">
         <div className="text-center mt-1 mb-1">Chery Browny</div>
         <hr/>
-        <div ><Stack spacing={1}><Rating className="ratingS" name="size-small" defaultValue={4} size="small" /></Stack></div>
+        <div ><Stack spacing={1}><Rating name="half-rating" defaultValue={2.5} precision={0.5} size='small' /></Stack></div>
         <hr/>
         <div className="sec1 d-flex">
         <div className="rate text-center mx-5">$250</div>
@@ -37,12 +37,12 @@ const ProductSec =()=>{
         <div><a className="link btn-primary mb-2 d-inline btn" href="#" onClick={handleClick}>Order Now</a></div>
       </div>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-2 col-sm-1 col-xs-1">
+    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
       <img className="img2" src={sec2} data-aos="flip-left"/>
       <div className="Detls card bg-secondary">
         <div className="text-center mt-1 mb-1">Black Radish</div>
         <hr/>
-        <div ><Stack spacing={1}><Rating className="ratingS" name="size-small" defaultValue={4.5} size="small" /></Stack></div>
+        <div ><Stack spacing={1}><Rating name="half-rating" defaultValue={4.5} precision={0.5} size='small' /></Stack></div>
         <hr/>
         <div className="sec1 d-flex">
         <div className="rate text-center mx-5">$350</div>
@@ -52,12 +52,12 @@ const ProductSec =()=>{
         <div><a className=" link btn-primary mb-2 d-inline btn" href="#" onClick={handleClick}>Order Now</a></div>
       </div>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-2 col-sm-1 col-xs-1">
+    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
       <img className="img3" src={sec3} data-aos="flip-left"/>
       <div className="Detls card bg-secondary">
         <div className="text-center mt-1 mb-1">Chaco Nakets</div>
         <hr/>
-        <div ><Stack spacing={1}><Rating className="ratingS" name="size-small" defaultValue={4} size="small" /></Stack></div>
+        <div ><Stack spacing={1}><Rating name="half-rating" defaultValue={3.5} precision={0.5} size='small' /></Stack></div>
         <hr/>
         <div className="sec1 d-flex">
         <div className="rate text-center mx-5">$350</div>
@@ -69,12 +69,12 @@ const ProductSec =()=>{
     </div>
   </div>
   <div class="row container justify-content-between mx-4 mt-5 mb-5">
-    <div class="col-xl-3 col-lg-3 col-md-2 col-sm-1 col-xs-1">
+    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
       <img className="img1" src={sec1} data-aos="flip-left"/>
       <div className="Detls card bg-secondary">
         <div className="text-center mt-1 mb-1">Chery Browny</div>
         <hr/>
-        <div ><Stack spacing={1}><Rating className="ratingS" name="size-small" defaultValue={3} size="small" /></Stack></div>
+        <div ><Stack spacing={1}><Rating name="half-rating" defaultValue={4.5} precision={0.5} size='small' /></Stack></div>
         <hr/>
         <div className="sec1 d-flex">
         <div className="rate text-center mx-5">$250</div>
@@ -84,12 +84,12 @@ const ProductSec =()=>{
         <div><a className=" link btn-primary mb-2 d-inline btn" href="#" onClick={handleClick}>Order Now</a></div>
       </div>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-2 col-sm-1 col-xs-1">
+    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
       <img className="img2" src={sec2} data-aos="flip-left"/>
       <div className="Detls card bg-secondary">
         <div className="text-center mt-1 mb-1">Black Radish</div>
         <hr/>
-        <div ><Stack spacing={1}><Rating className="ratingS" name="size-small" defaultValue={4} size="small" /></Stack></div>
+        <div ><Stack spacing={1}><Rating name="half-rating" defaultValue={2.5} precision={0.5} size='small' /></Stack></div>
         <hr/>
         <div className="sec1 d-flex">
         <div className="rate text-center mx-5">$350</div>
@@ -99,12 +99,12 @@ const ProductSec =()=>{
         <div><a className=" link btn-primary mb-2 d-inline btn" href="#" onClick={handleClick}>Order Now</a></div>
       </div>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-2 col-sm-1 col-xs-1">
+    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
       <img className="img3" src={sec3} data-aos="flip-left"/>
       <div className="Detls card bg-secondary">
         <div className="text-center mt-1 mb-1">Chaco Nakets</div>
         <hr/>
-        <div ><Stack spacing={1}><Rating className="ratingS" name="size-small" defaultValue={3} size="small" /></Stack></div>
+        <div ><Stack spacing={1}><Rating name="half-rating" defaultValue={3.5} precision={0.5} size='small' /></Stack></div>
         <hr/>
         <div className="sec1 d-flex">
         <div className="rate text-center mx-5">$350</div>

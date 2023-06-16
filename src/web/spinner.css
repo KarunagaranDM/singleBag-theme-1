@@ -1,0 +1,33 @@
+
+  
+  .spinner-scroll {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .spinner-scroll-content {
+    width: max-content;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: spinner-scroll-animation 15s linear infinite;
+  }
+  
+  @keyframes spinner-scroll-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .ImgSec {
+    width: 300px;
+    height: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+  }
+  

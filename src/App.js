@@ -15,17 +15,38 @@ import Footer from './web/footer';
 import { createBrowserRouter } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
 import ScrollButton from './web/tooltip';
+import SliderPro from './web/sliderView';
+import Spinner from './web/spinner';
+import ProductAdsSlider from './web/bumbAdd';
+import React, { useState, useEffect } from 'react';
+import Loader from './web/shimmer';
+import YourComponent from './web/topSec';
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
+
+  if (isLoading) {
+    return <Loader />;
+  }
+
   return (
-    <div className="background container-fluid ">
+    <div className="App ">
         <HeaderSec/><br/>
         <Outlet/>
+        <br/>
+        <ProductAdsSlider/>
         <CondentSec/>
         <SwipeableTemporaryDrawer/>
         <OrderSec/>
         <CollapseSec/>
         <ProductSec/>
-        <InfoSec/>
+        <br/><br/>
         <MapSec/>
         <Footer/>
         
