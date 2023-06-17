@@ -120,3 +120,11 @@ a.glightbox.play-btn:hover {
     margin-top: 180px;
     margin-left: 17px;
 }
+.rooting {
+    background-image: url("../images/gg.avif");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+}

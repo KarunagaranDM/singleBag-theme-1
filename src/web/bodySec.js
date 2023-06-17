@@ -13,7 +13,7 @@ const handleClick = ()=>{
 }
 
     return (
-        <>
+        <div className='rooting'>
         <div className="SearchBar row justify-content-end">
                 <input className="inputSec col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-4" type="text" placeholder='Search..'/>
                 <button className="buttonSec col-xl-1 col-lg-1 col-md-1 col-sm-2 col-xs-2"><FaSearchengin/></button>
@@ -34,14 +34,14 @@ const handleClick = ()=>{
                 </div>
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex mt-4 mx-4">
-                       <Link to="/menu"><div className="link-1"><a className="btn text-decoration-none text-secondary" href="#">OUR MENU</a></div></Link>
+                       <Link to="/menu"><div className="link-1"><a className="btn  text-decoration-none text-secondary" href="#">OUR MENU</a></div></Link>
                         <Link to="/form"><div className="link-2"><a className="btn text-decoration-none text-secondary" href="#" onClick={handleClick}>JOIN US..</a></div></Link>
                     </div>
                 </div>
                </div>
             </div>
             </Link>
-        </>
+        </div>
     )
 }
 export default BodySec;
